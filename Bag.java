@@ -10,13 +10,19 @@ public class Bag {
         limit = 10;
     }
 
-    public void addItem(String itemName) {
-        items.add(new Item(itemName));
+    public void addItem(String name) {
+        if(name.equals("Armor")){
+            this.items.add(new Armor(name));
+        }
+        else if(name.equals("Shoes")){
+            this.items.add(new Shoes(name));
+        }
+
     }
 
     public void showItem() {
         for (int i = 0; i < items.size(); i++) {
-            items.get(i).showName();
+            items.get(i).show();
         }
     }
 

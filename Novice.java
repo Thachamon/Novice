@@ -7,10 +7,11 @@ public class Novice {
     private int exp;
     private int maxHp;
     private int maxExp;
-    private int level;
+    public int level;
     private Bag bag;
     private String name;
     private int attack;
+    private int mana;
 
     public Novice(int initialHealth) {
         this.hp = initialHealth;
@@ -21,6 +22,7 @@ public class Novice {
         this.name = "Papa";
         this.bag = new Bag();
         this.attack = 10;
+        this.mana = 100;
     }
 
     public int levelUp() {
@@ -100,4 +102,7 @@ public class Novice {
         this.bag.showItem();
         System.out.println();
     }
+
 }
+
+

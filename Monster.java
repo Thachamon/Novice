@@ -17,7 +17,7 @@ public class Monster {
             System.out.println("****************************");
             System.out.println("Please Enter the activity number to do");
             System.out.println("1 For Kill Monter");
-            System.out.println("2 For Eat Food");
+            System.out.println("2 For Add Item 'Bow' ");
             // System.out.println("3 For Eat Poison");
             System.out.println("3 Show Items");
             System.out.println("0 For End");
